@@ -1,0 +1,30 @@
+192.168.220.48: OS Name:                   Microsoft Windows 10 Home Single Language
+************************************************************************************
+OS details of 192.168.220.48
+
+
+Caption=Microsoft Windows 10 Home Single Language
+FreePhysicalMemory=612044
+TotalVirtualMemorySize=15077180
+Version=10.0.19044
+
+
+
+************************************************************************************
+Disk details of 192.168.220.48
+DeviceID  FreeSpace    Size          SystemName       VolumeName  
+C:        66641289216  241308762112  DESKTOP-MQKKMJ5              
+D:        5977759744   6006239232    DESKTOP-MQKKMJ5  New Volume  
+E:                                   DESKTOP-MQKKMJ5              
+S:        2046881792   2097147904    DESKTOP-MQKKMJ5  New Volume  
+
+************************************************************************************
+Memory details of 192.168.220.48
+Capacity    Manufacturer  PartNumber        Speed  
+8589934592  80AD000080AD  HMA81GS6JJR8N-VK  2667   
+
+************************************************************************************
+CPU details of 192.168.220.48
+MaxClockSpeed  Name                                      NumberOfCores  NumberOfLogicalProcessors  
+1800           Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  4              8                          
+

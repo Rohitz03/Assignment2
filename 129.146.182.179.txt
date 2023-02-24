@@ -1,0 +1,79 @@
+************************************************************************************
+OS Name for 129.146.182.179: CentOS Linux 7
+************************************************************************************
+OS details of 129.146.182.179
+CentOS Linux release 7.5.1804 (Core) 
+NAME="CentOS Linux"
+VERSION="7 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="7"
+PRETTY_NAME="CentOS Linux 7 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:7"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-7"
+CENTOS_MANTISBT_PROJECT_VERSION="7"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="7"
+
+CentOS Linux release 7.5.1804 (Core) 
+CentOS Linux release 7.5.1804 (Core) 
+************************************************************************************
+Network details of 129.146.182.179
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 02:00:17:14:7c:bf brd ff:ff:ff:ff:ff:ff
+    inet 10.0.0.146/24 brd 10.0.0.255 scope global dynamic ens3
+       valid_lft 68677sec preferred_lft 68677sec
+    inet6 fe80::17ff:fe14:7cbf/64 scope link 
+       valid_lft forever preferred_lft forever
+************************************************************************************
+Disk details of 129.146.182.179
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0 46.6G  0 disk 
+├─sda1            8:1    0  100M  0 part /boot/efi
+├─sda2            8:2    0    1G  0 part /boot
+└─sda3            8:3    0   15G  0 part 
+  ├─centos-root 253:0    0 13.4G  0 lvm  /
+  └─centos-swap 253:1    0  1.6G  0 lvm  [SWAP]
+sdb               8:16   0   50G  0 disk 
+************************************************************************************
+Memory details of 129.146.182.179
+              total        used        free      shared  buff/cache   available
+Mem:            14G        171M         13G        344M        676M         13G
+Swap:          1.6G          0B        1.6G
+************************************************************************************
+CPU details of 129.146.182.179
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    2
+Core(s) per socket:    1
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Platinum 8167M CPU @ 2.00GHz
+Stepping:              4
+CPU MHz:               1995.309
+BogoMIPS:              3990.61
+Virtualization:        VT-x
+Hypervisor vendor:     KVM
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              4096K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 ibpb ibrs stibp arat pku ospke spec_ctrl intel_stibp arch_capabilities
